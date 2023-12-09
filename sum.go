@@ -31,7 +31,7 @@ func mod(a int, b int) int {
 
 func sumX(a int, b ...int) int {
 	var sum int
-	for n := range b {
+	for _, n := range b {
 		sum += n + a
 	}
 	return sum
