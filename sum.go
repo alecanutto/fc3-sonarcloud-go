@@ -1,12 +1,9 @@
 package main
 
+import "fmt"
+
 func main() {
-	println(sum(1, 2))
-	println(sub(1, 2))
-	println(times(1, 2))
-	println(div(1, 2))
-	println(mod(1, 2))
-	println(sumX(1, 2, 3, 4, 5))
+	fmt.Println("Example of a sonarcloud with go")
 }
 
 func sum(a int, b int) int {
